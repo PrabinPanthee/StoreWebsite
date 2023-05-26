@@ -1,0 +1,132 @@
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('bg.jpg');
+    background-size: cover;
+    border: 1px solid rgb(57 50 50);
+
+
+}
+
+.header {
+
+    background-color: rgb(57 50 50);
+    margin: -10px;
+    padding: 0px;
+    border: 1px solid rgb(57 50 50);
+
+    
+   
+
+}
+
+.left {
+    border: 3px solid green;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+
+.mid {
+
+
+    width: 600px;
+    margin: 10px auto;
+
+}
+
+.right {
+
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+
+    margin: 0px;
+
+
+    padding: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+
+    padding: 18px 16px;
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+
+.navbar li a {
+
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(10, 10, 10);
+
+}
+
+.navbar a:hover,
+.navbar a :active {
+    color: grey;
+
+    transition: 0.3s;
+
+
+}
+
+.btn {
+    padding: 4px 14px;
+    border-radius: 10px;
+    background-color: rgb(143, 135, 135);
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    color: grey;
+    font-size: 20px;
+}
+
+.container {
+    border: 3px solid rgb(30, 26, 26);
+    width: 39%;
+    margin: 65px 65px;
+    padding: 1px 25px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container input {
+    display: block;
+    width: 84%;
+    padding: 10px 25px;
+    margin: 8px auto;
+     border-radius: 10px;
+     text-align: center;
+}
+
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    background-color: black;
+}
